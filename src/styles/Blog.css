@@ -1,0 +1,145 @@
+.blog-container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding-top: 90px;
+  font-family: 'Poppins', sans-serif;
+  color: #1B1F3B;
+}
+
+.blog-title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.blog-subtitle {
+  text-align: center;
+  font-size: 18px;
+  color: #4A4A4A;
+  margin-bottom: 30px;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.blog-card {
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding: 25px;
+  text-decoration: none;
+  color: #1B1F3B;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  border: 1px solid #E5E7EB;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 16px rgba(0,0,0,0.15);
+}
+
+.blog-thumb {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.blog-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #2D6CDF;
+  font-weight: 600;
+}
+
+.blog-actions {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.blog-btn {
+  background: #FFB400;
+  color: #1B1F3B;
+  padding: 12px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.blog-btn:hover {
+  background: #1B1F3B;
+  color: #FFFFFF;
+  transform: translateY(-2px);
+}
+
+.blog-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.blog-input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #D1D5DB;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.05);
+}
+
+.blog-input:focus {
+  border-color: #2D6CDF;
+  outline: none;
+}
+
+.blog-meta-full {
+  display: flex;
+  gap: 20px;
+  font-size: 15px;
+  color: #4A4A4A;
+  margin-bottom: 20px;
+}
+
+.blog-image-full {
+  width: 100%;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.blog-content {
+  margin-top: 25px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #4A4A4A;
+  background: #FFFFFF;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.blog-delete-btn {
+  margin-top: 30px;
+  background: #E63946;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.blog-delete-btn:hover {
+  background: #B71C1C;
+}

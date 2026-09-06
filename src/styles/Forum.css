@@ -1,0 +1,128 @@
+.foro-container {
+  width: 90%;
+  margin: 40px auto;
+  font-family: 'Poppins', sans-serif;
+  color: #1B1F3B;
+}
+
+.foro-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.foro-subtitle {
+  font-size: 18px;
+  color: #4A4A4A;
+  margin-bottom: 30px;
+}
+
+
+.foro-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.foro-card {
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: #1B1F3B;
+}
+
+.foro-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 6px 16px rgba(0,0,0,0.2);
+}
+
+.foro-card h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.foro-preview {
+  font-size: 14px;
+  color: #2D6CDF;
+  font-weight: 600;
+}
+
+.foro-acciones {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.foro-btn {
+  background: #2D6CDF;
+  color: #FFFFFF;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.foro-btn:hover {
+  background: #1B1F3B;
+  transform: translateY(-3px);
+}
+
+
+.foro-formulario {
+  margin-top: 40px;
+  background: #FFFFFF;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.foro-formulario h2 {
+  margin-bottom: 20px;
+}
+
+.foro-formulario form {
+  display: flex;
+  flex-direction: column;
+}
+
+.foro-formulario label {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.foro-formulario input,
+.foro-formulario textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #CFCFCF;
+  margin-bottom: 18px;
+  font-size: 15px;
+}
+
+.foro-formulario textarea {
+  min-height: 120px;
+}
+
+
+.foro-btn-cancelar {
+  background: #888;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.foro-btn-cancelar:hover {
+  background: #555;
+}
