@@ -2,7 +2,7 @@
 
 Este repositorio contiene el desarrollo del proyecto **CODECAMPUS**, una plataforma educativa creada como parte de la actividad integradora del Sprint del marco **SCRUM**.  
 El sitio está construido con **React** y organiza contenido educativo en secciones como tutoriales, blog, cursos y foro, ofreciendo una estructura clara para el aprendizaje de programación web.
-
+Actualmente contiene las actividades realzadas en el primer Sprint. 
 ---
 
 ## Tecnologías utilizadas
