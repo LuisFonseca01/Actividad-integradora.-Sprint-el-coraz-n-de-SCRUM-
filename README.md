@@ -5,7 +5,7 @@ El sitio está construido con **React** y organiza contenido educativo en seccio
 
 ---
 
-## 🚀 Tecnologías utilizadas
+## Tecnologías utilizadas
 - React
 - React Router
 - HTML5 / CSS3
@@ -14,7 +14,7 @@ El sitio está construido con **React** y organiza contenido educativo en seccio
 
 ---
 
-## 📦 Instalación y ejecución del proyecto
+##  Instalación y ejecución del proyecto
 
 Sigue estos pasos para correr el proyecto en tu computadora:
 
