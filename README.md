@@ -31,7 +31,7 @@ cd Actividad-integradora.-Sprint-el-coraz-n-de-SCRUM-
 npm install
 
 4️⃣ Ejecutar el servidor de desarrollo
-bash
+
 npm start
 
 El proyecto se abrirá automáticamente en:
